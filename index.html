@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/assets/svgs/logo_footer.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlotRushHQ - Premium Online Casino Portal</title>
+    <meta name="description" content="Discover the best-rated online casino sites with top welcome bonuses, verified reviews, and responsible gambling support. Join SlotRushHQ for a secure, premium gaming experience.">
+    <meta name="keywords" content="online casinos, top casino sites, best casino bonuses, safe gambling, licensed casinos, casino reviews, new player bonuses, responsible gambling, Mr Vegas, 10Bet, NetBet, Luckster, Neptune Play, Live Score Bet">
+    <link rel="canonical" href="https://slotrushhq.com/">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="/main.js" defer></script>
+    <style>
+        details summary { list-style: none; }
+        details summary::-webkit-details-marker { display: none; }
+        details[open] .faq-toggle-icon { transform: rotate(45deg); }
+    </style>
+</head>
+
+<body class="bg-main overflow-x-hidden">
+
+<div class="disclaimer bg-second/90 text-white text-xs md:text-sm tracking-normal">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-center">
+        <span class="flex items-center gap-2 font-semibold">
+            <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-warning text-white text-[11px] font-black">18+</span>
+            Gamble responsibly.
+        </span>
+        <a href="#responsible" class="underline underline-offset-2 font-medium hover:text-gold transition-colors">Support & Tools</a>
+    </div>
+</div>
+
+<header class="header bg-white shadow-xl border-b border-accent sticky top-0 z-50">
+    <div class="header__container max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-20">
+            <div class="header__logo">
+                <a href="/" class="flex items-center space-x-3">
+                    <img class="h-10" src="/assets/svgs/logo.svg" alt="slotrushhq">
+                </a>
+            </div>
+
+            <nav class="header__nav hidden lg:flex items-center space-x-8">
+                <a class="nav__link text-second hover:text-accent font-semibold transition-colors border-b-2 border-transparent hover:border-accent" href="#offers">Casino Offers</a>
+                <a class="nav__link text-second hover:text-accent font-semibold transition-colors border-b-2 border-transparent hover:border-accent" href="#faq">Help Center</a>
+                <a class="nav__link text-second hover:text-accent font-semibold transition-colors border-b-2 border-transparent hover:border-accent" href="#footer">Contact</a>
+            </nav>
+
+            <div class="header__actions hidden lg:flex items-center space-x-4">
+                <a href="#" class="btn btn--outline px-6 py-2 border-2 border-second text-second rounded-lg font-semibold hover:bg-second hover:text-white transition-all">
+                    Sign In
+                </a>
+                <a href="#" class="btn btn--primary px-6 py-2 bg-accent text-white rounded-lg font-semibold hover:bg-accent2 transition-all shadow-lg">
+                    Join Now
+                </a>
+            </div>
+
+            <button id="mobileMenuBtn" class="lg:hidden w-10 h-10 flex flex-col justify-center items-center space-y-1 group">
+                <span class="mobile-nav__line w-6 h-0.5 bg-second transition-all duration-300 group-hover:bg-accent"></span>
+                <span class="mobile-nav__line w-6 h-0.5 bg-second transition-all duration-300 group-hover:bg-accent"></span>
+                <span class="mobile-nav__line w-6 h-0.5 bg-second transition-all duration-300 group-hover:bg-accent"></span>
+            </button>
+        </div>
+    </div>
+
+    <div id="mobileNav" class="mobile-nav lg:hidden fixed inset-0 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 z-40">
+        <div class="mobile-nav__panel bg-white w-80 max-w-[85vw] h-full ml-auto shadow-2xl transform translate-x-full transition-transform duration-300">
+            <div class="p-6 space-y-6">
+                <nav class="space-y-4">
+                    <a class="mobile-nav__link block text-xl font-semibold text-second hover:text-accent transition-colors py-3 border-b border-gray-200" href="#offers">Casino Offers</a>
+                    <a class="mobile-nav__link block text-xl font-semibold text-second hover:text-accent transition-colors py-3 border-b border-gray-200" href="#faq">Help Center</a>
+                    <a class="mobile-nav__link block text-xl font-semibold text-second hover:text-accent transition-colors py-3 border-b border-gray-200" href="#footer">Contact</a>
+                </nav>
+
+                <div class="flex items-center justify-between gap-4 pt-6">
+                    <a href="#" class="w-full text-center px-6 py-3 border-2 border-second text-second rounded-lg font-semibold hover:bg-second hover:text-white transition-all">
+                        Sign In
+                    </a>
+                    <a href="#" class="w-full text-center px-6 py-3 bg-accent text-white rounded-lg font-semibold hover:bg-accent2 transition-all">
+                        Join Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="hero" class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-second via-third to-second"></div>
+        <div aria-hidden="true" class="pointer-events-none absolute inset-0">
+            <div class="absolute -top-32 -left-24 w-[28rem] h-[28rem] rounded-full bg-accent/20 blur-3xl opacity-60"></div>
+            <div class="absolute bottom-[-10rem] right-[-5rem] w-[34rem] h-[34rem] rounded-full bg-gold/20 blur-3xl opacity-50"></div>
+            <div class="absolute top-1/3 left-1/2 -translate-x-1/2 w-[50rem] h-[50rem] rounded-full bg-white/5 blur-2xl opacity-40"></div>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto px-4 py-28 md:py-36 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
+                Your Shortcut to Trusted UK Casinos
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed font-medium">
+                Fast-withdrawal brands. Transparent bonus terms. Independent safety signals—only what you need before you deposit.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#offers" class="px-8 py-4 rounded-full bg-accent hover:bg-accent2 text-white font-semibold shadow-lg shadow-black/20 transition">
+                    Browse Offers
+                </a>
+                <a href="#popular" class="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold backdrop-blur border border-white/20 transition">
+                    Top Sites
+                </a>
+            </div>
+
+            <div class="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-[10px] font-bold tracking-wide text-white/80 border border-white/20">UK</div>
+                    <p class="text-sm text-white/80 leading-snug"><span class="font-semibold text-white">100% Licensed</span><br>Only UKGC-regulated brands</p>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-[10px] font-bold tracking-wide text-white/80 border border-white/20">48H</div>
+                    <p class="text-sm text-white/80 leading-snug"><span class="font-semibold text-white">Payout Focus</span><br>Highlighting faster cashouts</p>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-[10px] font-bold tracking-wide text-white/80 border border-white/20">SAFE</div>
+                    <p class="text-sm text-white/80 leading-snug"><span class="font-semibold text-white">Player-First</span><br>Clear limits & RG tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers" class="offers py-16 bg-white border-y border-accent/10">
+        <div class="offers__container max-w-7xl mx-auto px-4">
+            <div class="text-center mb-10">
+                <div class="inline-block px-4 py-1.5 bg-accent/5 border border-accent/20 rounded-full mb-4">
+                    <span class="text-accent font-semibold text-xs tracking-wide">EXCLUSIVE PARTNERSHIPS</span>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-black text-second mb-4 leading-tight">
+                    Latest Casino Offers You
+                    <span class="text-accent">Shouldn't Miss</span>
+                </h2>
+                <p class="text-base md:text-lg text-third max-w-xl mx-auto leading-relaxed">
+                    Hand-picked casino partnerships featuring exclusive bonuses, verified security, and the highest industry standards for UK players.
+                </p>
+            </div>
+
+            <div class="offers__list max-w-3xl mx-auto space-y-8">
+                <article class="offer-simple relative p-6 md:p-7 bg-accent1/30 border border-accent/20 rounded-xl shadow-sm hover:shadow-md hover:border-accent transition">
+                    <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-4">
+                        <div class="flex items-center gap-5">
+                            <div class="flex items-center justify-center bg-white rounded-lg p-3 w-28 h-24 border border-accent/20">
+                                <img class="w-full h-full object-contain" src="/assets/offers/10bet.svg" alt="10Bet Logo">
+                            </div>
+                            <div class="space-y-2">
+                                <span class="inline-block text-[11px] font-semibold tracking-wide bg-accent/10 text-accent px-3 py-1 rounded-full">VERIFIED PARTNER</span>
+                                <div class="flex items-center gap-2 text-sm font-bold text-second">
+                                    <img class="invert h-6" src="/assets/svgs/rating.svg" alt="5 star rating">
+                                    <span class="text-accent">4.9/5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center md:text-right md:min-w-[14rem]">
+                            <div class="text-2xl font-black text-second leading-tight">50% UP TO £250</div>
+                            <div class="text-accent text-sm font-semibold tracking-wide">WELCOME BONUS</div>
+                        </div>
+                    </header>
+
+                    <ul class="mb-5 space-y-2 text-sm text-third">
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>UK Gambling Commission Licensed</span></li>
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>Fast Withdrawal Processing</span></li>
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>24/7 Customer Support</span></li>
+                    </ul>
+
+                    <a href="#" target="_blank" class="block w-full text-center bg-accent hover:bg-accent2 text-white font-bold tracking-wide py-3 rounded-lg transition shadow hover:shadow-lg mb-4">Claim Bonus Now</a>
+
+                    <p class="text-[11px] leading-relaxed text-gray-600">
+                        18+. Gamble Responsibly. <a href="#" class="text-accent">gambleaware.org</a>. New bettors; Use code CASINO; Wager bonus 50x to release bonus winnings; Valid 30 days; T&amp;C apply; 18+
+                    </p>
+                </article>
+
+                <article class="offer-simple relative p-6 md:p-7 bg-gray-50 border border-gray-200 rounded-xl shadow-sm hover:shadow-md hover:border-second/50 transition">
+                    <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-4">
+                        <div class="flex items-center gap-5">
+                            <div class="flex items-center justify-center bg-white rounded-lg p-3 w-28 h-24 border border-gray-200">
+                                <img class="w-full h-full object-contain" src="/assets/offers/mrplay.svg" alt="Mr Play Logo">
+                            </div>
+                            <div class="space-y-2">
+                                <span class="inline-block text-[11px] font-semibold tracking-wide bg-second/10 text-second px-3 py-1 rounded-full">PREMIUM PARTNER</span>
+                                <div class="flex items-center gap-2 text-sm font-bold text-second">
+                                    <img class="invert h-6" src="/assets/svgs/rating.svg" alt="5 star rating">
+                                    <span class="text-second">4.8/5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center md:text-right md:min-w-[14rem]">
+                            <div class="text-2xl font-black text-second leading-tight">UP TO £200</div>
+                            <div class="text-accent text-sm font-semibold tracking-wide">+ 100 FREE SPINS</div>
+                        </div>
+                    </header>
+                    <ul class="mb-5 space-y-2 text-sm text-third">
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>Malta Gaming Authority Licensed</span></li>
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>Mobile Optimized Platform</span></li>
+                        <li class="flex items-start gap-2"><span class="w-2 h-2 rounded-full bg-success mt-1.5"></span><span>Instant Deposit Methods</span></li>
+                    </ul>
+                    <a href="#" target="_blank" class="block w-full text-center bg-second hover:bg-third text-white font-bold tracking-wide py-3 rounded-lg transition shadow hover:shadow-lg mb-4">Claim Bonus Now</a>
+                    <p class="text-[11px] leading-relaxed text-gray-600">
+                        18+. Gamble Responsibly. <a href="#" class="text-accent">gambleaware.org</a>. Applies only to new depositing players. Min. deposit £10. Max bonus: £200. Min wagering 35x. Spins expire in 24hr.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials py-16 bg-white border-t border-gray-200">
+        <div class="max-w-6xl mx-auto px-4">
+            <header class="mb-10 text-center">
+                <h2 class="text-[26px] md:text-[30px] font-bold tracking-tight text-second">Player Feedback (Unedited)</h2>
+                <p class="mt-3 text-sm text-third max-w-xl mx-auto leading-relaxed">Real UK user impressions. Not promises—just individual experiences. Use limits. Keep it entertainment.</p>
+            </header>
+            <ul class="divide-y divide-gray-200 text-sm">
+                <li class="py-6"><div class="flex gap-4"><div class="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center text-xs font-semibold text-second">S</div><div class="flex-1 space-y-2"><div class="flex flex-wrap items-center gap-3 text-[11px] text-gray-500 font-medium"><span class="tracking-wider text-gold">★★★★★</span><span class="text-gray-400">Manchester</span><span class="px-2 py-0.5 rounded bg-gray-100 text-gray-500 uppercase tracking-wide">Verified</span></div><blockquote class="italic text-second leading-relaxed">Found a legit site with better payout speed than my old one. First month: smooth KYC and a £2,400 win landed in 24h.</blockquote><div class="text-[11px] font-semibold text-gray-600">Sarah M.</div></div></div></li>
+                <li class="py-6"><div class="flex gap-4"><div class="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center text-xs font-semibold text-second">D</div><div class="flex-1 space-y-2"><div class="flex flex-wrap items-center gap-3 text-[11px] text-gray-500 font-medium"><span class="tracking-wider text-gold">★★★★★</span><span class="text-gray-400">London</span><span class="px-2 py-0.5 rounded bg-gray-100 text-gray-500 uppercase tracking-wide">Verified</span></div><blockquote class="italic text-second leading-relaxed">Their comparisons saved me time. Fast withdrawals + clear wagering info. Feels fair and transparent.</blockquote><div class="text-[11px] font-semibold text-gray-600">David K.</div></div></div></li>
+                <li class="py-6"><div class="flex gap-4"><div class="w-9 h-9 rounded-full border border-gray-300 flex items-center justify-center text-xs font-semibold text-second">E</div><div class="flex-1 space-y-2"><div class="flex flex-wrap items-center gap-3 text-[11px] text-gray-500 font-medium"><span class="tracking-wider text-gold">★★★★★</span><span class="text-gray-400">Birmingham</span><span class="px-2 py-0.5 rounded bg-gray-100 text-gray-500 uppercase tracking-wide">Verified</span></div><blockquote class="italic text-second leading-relaxed">Beginner friendly. The safety breakdowns stopped me guessing. Now I only play on licensed sites.</blockquote><div class="text-[11px] font-semibold text-gray-600">Emma T.</div></div></div></li>
+            </ul>
+            <div class="mt-8 text-center text-[11px] text-gray-500 leading-relaxed max-w-2xl mx-auto">
+                Personal opinions. Not indicative of typical outcomes. 18+ only. Support: <a href="#" class="underline text-second">BeGambleAware</a> • <a href="#" class="underline text-second">GamCare</a>.
+            </div>
+        </div>
+    </section>
+
+    <section id="responsible" class="responsible py-20 bg-gradient-to-br from-warning/5 to-gold/5">
+        <div class="responsible__container max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <div class="inline-block px-4 py-2 bg-warning/10 border border-warning rounded-full mb-4">
+                    <span class="text-warning font-semibold text-sm">PLAYER PROTECTION</span>
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-black text-second mb-6">
+                    Responsible Gaming
+                    <span class="text-warning">Matters Most</span>
+                </h2>
+                <p class="text-xl text-third max-w-4xl mx-auto">
+                    Gaming should be enjoyable entertainment, never a financial burden. We partner only with operators committed to player safety.
+                </p>
+            </div>
+            <div class="responsible__organizations bg-white rounded-2xl shadow-xl p-8 border-2 border-warning/20">
+                <h3 class="text-center text-2xl font-bold text-second mb-8">Official Support Organizations</h3>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <a href="#" class="org-link flex items-center justify-center bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-xl p-4 transition-all hover:scale-105 group"><img class="h-12 object-contain" src="/assets/organisations/responsible_begambleaware.svg" alt="BeGambleAware"></a>
+                    <a href="#" class="org-link flex items-center justify-center bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-xl p-4 transition-all hover:scale-105 group"><img class="h-12 object-contain" src="/assets/organisations/responsible_gamecare.svg" alt="GamCare"></a>
+                    <a href="#" class="org-link flex items-center justify-center bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-xl p-4 transition-all hover:scale-105 group"><img class="h-12 object-contain" src="/assets/organisations/responsible_gamstop.svg" alt="GamStop"></a>
+                    <a href="#" class="org-link flex items-center justify-center bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-xl p-4 transition-all hover:scale-105 group"><img class="h-12 object-contain" src="/assets/organisations/responsible_take_time_to_think.svg" alt="Take Time to Think"></a>
+                    <a href="#" class="org-link flex items-center justify-center bg-gray-50 hover:bg-gray-100 border-2 border-gray-200 rounded-xl p-4 transition-all hover:scale-105 group col-span-2 sm:col-span-1"><img class="h-12 object-contain" src="/assets/organisations/responsible_18plus.svg" alt="18 Plus Only"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular" class="popular py-20 bg-white">
+        <div class="popular__container max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <div class="inline-block px-4 py-2 bg-second/10 border border-second rounded-full mb-4"><span class="text-second font-semibold text-sm">CASINO DIRECTORY</span></div>
+                <h2 class="text-4xl lg:text-5xl font-black text-second mb-6">Most Popular Casinos <span class="text-accent">in the UK</span></h2>
+                <p class="text-xl text-third max-w-3xl mx-auto">Our hand-picked selection of the most trusted, licensed, and player-favorite casino sites in the United Kingdom.</p>
+            </div>
+            <div class="popular__grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/mrvegas.svg" alt="Mr Vegas"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/10bet.svg" alt="10Bet"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/netbet.svg" alt="NetBet"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/neptuneplay.svg" alt="Neptune Play"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/luckster.svg" alt="Luckster"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/mrplay.svg" alt="Mr Play"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+                <a href="#" class="casino-card bg-gradient-to-br from-white to-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group relative overflow-hidden flex items-center justify-center aspect-video"><img class="h-16 object-contain group-hover:scale-110 transition-transform" src="/assets/offers/livescore.svg" alt="Live Score Bet"><div class="absolute inset-0 bg-accent/95 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"><div class="bg-white text-accent px-4 py-2 rounded-full font-semibold">View Review</div></div></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq py-20 bg-white border-t border-gray-200">
+        <div class="faq__container max-w-6xl mx-auto px-4">
+            <header class="max-w-3xl mx-auto text-center mb-14">
+                <h2 class="text-[30px] md:text-[34px] font-bold tracking-tight text-second">Frequently Asked Questions</h2>
+                <p class="mt-3 text-sm text-third leading-relaxed">Straight answers before you deposit. No filler.</p>
+            </header>
+            <div class="space-y-14">
+                <div>
+                    <h3 class="mb-5 text-[11px] font-semibold tracking-wider text-gray-500 uppercase">Getting Started</h3>
+                    <div class="space-y-3">
+                        <details class="group border border-gray-200 rounded-lg p-4 transition hover:border-gray-300"><summary class="cursor-pointer flex items-center justify-between text-sm font-semibold text-second">What is SlotRushHQ?<span class="faq-toggle-icon text-xs text-gray-500 transition-transform duration-300">+</span></summary><p class="mt-3 text-xs leading-relaxed text-third">Independent UK casino comparison: licensing checks, bonus transparency, payout culture, and safety guidance in one place.</p></details>
+                        <details class="group border border-gray-200 rounded-lg p-4 transition hover:border-gray-300"><summary class="cursor-pointer flex items-center justify-between text-sm font-semibold text-second">How do you pick casinos?<span class="faq-toggle-icon text-xs text-gray-500 transition-transform duration-300">+</span></summary><p class="mt-3 text-xs leading-relaxed text-third">UKGC licence, withdrawal speed, player support quality, security stack, bonus fairness, responsible tools.</p></details>
+                        <details class="group border border-gray-200 rounded-lg p-4 transition hover:border-gray-300"><summary class="cursor-pointer flex items-center justify-between text-sm font-semibold text-second">Is it free to use?<span class="faq-toggle-icon text-xs text-gray-500 transition-transform duration-300">+</span></summary><p class="mt-3 text-xs leading-relaxed text-third">Yes. We’re affiliate-funded; offer terms are unaffected. No paywall. No bias toward higher commissions.</p></details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer" class="footer bg-second text-gray-300 py-16">
+    <div class="footer__container max-w-7xl mx-auto px-4">
+        <div class="footer__content space-y-12">
+            <div class="footer__organizations">
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                    <a class="w-full bg-main rounded-lg px-4 py-3 hover:scale-105 transition-transform flex items-center justify-center" href="#"><img class="h-8 object-contain filter grayscale hover:grayscale-0" src="/assets/organisations/responsible_begambleaware.svg" alt="BeGambleAware"></a>
+                    <a class="w-full bg-main rounded-lg px-4 py-3 hover:scale-105 transition-transform flex items-center justify-center" href="#"><img class="h-8 object-contain filter grayscale hover:grayscale-0" src="/assets/organisations/responsible_gamecare.svg" alt="GamCare"></a>
+                    <a class="w-full bg-main rounded-lg px-4 py-3 hover:scale-105 transition-transform flex items-center justify-center" href="#"><img class="h-8 object-contain filter grayscale hover:grayscale-0" src="/assets/organisations/responsible_gamstop.svg" alt="GamStop"></a>
+                    <a class="w-full bg-main rounded-lg px-4 py-3 hover:scale-105 transition-transform flex items-center justify-center" href="#"><img class="h-8 object-contain filter grayscale hover:grayscale-0" src="/assets/organisations/responsible_take_time_to_think.svg" alt="Take Time to Think"></a>
+                    <a class="w-full bg-main rounded-lg px-4 py-3 hover:scale-105 transition-transform flex items-center justify-center col-span-2 sm:col-span-1" href="#"><img class="h-8 object-contain filter grayscale hover:grayscale-0" src="/assets/organisations/responsible_18plus.svg" alt="18 Plus Only"></a>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-8 border-t border-gray-700 pt-8">
+                <a href="/"><img class="h-10" src="/assets/svgs/logo_footer.svg" alt="slotrushhq"></a>
+                <nav class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-2 text-center lg:text-left">
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#">About Us</a>
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#">Terms</a>
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#">Privacy</a>
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#">Cookies</a>
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#faq">FAQ</a>
+                    <a class="text-gray-400 hover:text-accent transition-colors font-semibold" href="#footer">Contact</a>
+                </nav>
+            </div>
+            <div class="border-t border-gray-700 pt-8 space-y-4 text-center text-xs">
+                <p><strong>18+ Only:</strong> You must be 18 years or older to participate. Underage gambling is illegal.</p>
+                <p><strong>Gambling Warning:</strong> Gambling can be addictive. Please play responsibly and set limits.</p>
+                <p><strong>Get Help:</strong> National Problem Gambling Helpline 0808 8020 133</p>
+            </div>
+            <div class="text-center text-xs text-gray-500 border-t border-gray-700 pt-8">
+                &copy; <span id="footerYear">2024</span> SlotRushHQ Casino Portal – All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
